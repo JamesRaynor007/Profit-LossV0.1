@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Profit & Loss App Futurista</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Profit & Loss Dashboard</h1>
+    
+    <div class="buttons">
+      <button id="downloadTemplate">Descargar Template</button>
+      <button id="loadTemplate">Cargar Template</button>
+      <button id="chooseMonth">Elegir Mes</button>
+      <button id="calculateRatios">Calcular Ratios</button>
+    </div>
+    
+    <input type="file" id="fileInput" style="display:none" />
+    
+    <div id="ratios" class="ratios"></div>
+    
+    <div id="dataContainer" class="data-container"></div>
+  </div>
+
+<script src="javascript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+</body>
+</html>
